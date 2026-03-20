@@ -144,6 +144,39 @@ For rapid prototyping and POCs:
 
 ---
 
+## Feature Development
+
+### User Story Format
+Define features using the As a / I want / So that format:
+
+```
+As a [user type]
+I want [action]
+So that [benefit]
+```
+
+Example:
+```
+As a registered user
+I want to reset my password via email
+So that I can regain access to my account if I forget it
+```
+
+### Feature Requirements
+- Every feature requires at least one test
+- Features are developed on a `feature/` branch
+- Tests define expected behavior, not implementation details
+
+### Feature Branch Workflow
+1. Create branch: `git checkout -b feature/description`
+2. Write user story and acceptance criteria
+3. Implement feature with tests
+4. Ensure tests pass
+5. Open PR for review
+6. Merge to `main`
+
+---
+
 ## Code Quality
 
 ### General Principles
