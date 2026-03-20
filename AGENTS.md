@@ -166,6 +166,8 @@ So that I can regain access to my account if I forget it
 - Every feature requires at least one test
 - Features are developed on a `feature/` branch
 - Tests define expected behavior, not implementation details
+- New features must not break existing functionality
+- If overlap, collision, or regression is detected, flag it immediately before proceeding
 
 ### Feature Branch Workflow
 1. Create branch: `git checkout -b feature/description`
